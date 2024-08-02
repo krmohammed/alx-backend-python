@@ -5,3 +5,4 @@
 def add(a: float, b: float) -> float:
     """type annotated add function"""
     return a + b
+    
