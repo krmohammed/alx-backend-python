@@ -4,7 +4,7 @@ import asyncio
 import random
 
 
-async def wait_random(max_delay: int = 10) -> asyncio.Future:
+async def wait_random(max_delay: int = 10) -> float:
     """
     takes in max_delay, with a default value of 10
     then waits for a random delay between 0 and max_delay
