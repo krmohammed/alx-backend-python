@@ -2,9 +2,10 @@
 """provides the function async_generator"""
 import asyncio
 import random
+from typing import List
 
 
-async def async_generator():
+async def async_generator() -> List[int]:
     """coroutine: async_generator"""
     for i in range(10):
         await asyncio.sleep(1)
