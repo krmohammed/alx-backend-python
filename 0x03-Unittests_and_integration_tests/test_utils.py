@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Tests"""
+"""Tests Cases for the function access_nested_map
+"""
 import unittest
 import parameterized
 
@@ -15,5 +16,5 @@ class TestAccessNestedMap(unittest.TestCase):
         ]
     )
     def test_access_nested_map(self, nested_map, path):
-        """tests"""
+        """tests for for right answers"""
         self.assertEqual(access_nested_map(nested_map, path), expected)
